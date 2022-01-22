@@ -1,0 +1,52 @@
+body {
+  background-color: #ffcccc;
+
+}
+button {
+  background-color: #ff6666;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  transition-duration: 1s;
+  cursor: pointer;
+  margin-left: 30px;
+  width: 20%;
+  height: 100px;
+}
+button:hover {
+  background-color: #e60000
+}
+input {
+  width: 50%;
+  height: 30px;
+  margin-left: 70px;
+}
+.box {
+  display: block;
+  margin-left: 200px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  width: 30%;
+
+}
+.text {
+  padding-left: 30px;
+  font-size: 30px;
+}
+#clicks_limit {
+  padding-left: 30px;
+}
+
+.row {
+  display: flex;
+
+}
+.col {
+  flex: 1;
+  margin: 10px;
+  padding-left: 70px;
+  border: solid #800000;
+  align-content: center;
+  background-color: #ff9999;
+}
